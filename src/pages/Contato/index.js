@@ -10,10 +10,7 @@ export default function Contato(){
             <Cabecalho/>
             <h1>Contato</h1>
 
-            <img src='/assets/images/borboleta.png' alt='borboleta'  />
-
-            <hr />
-            <Link to="/"> Ir para a Home </Link>
+            {/* <img src='/assets/images/borboleta.png' alt='borboleta'  /> */}
         </div>
     )
 }

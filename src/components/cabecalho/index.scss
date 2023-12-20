@@ -1,6 +1,21 @@
 .comp-cabecalho{
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
+   
     background-color: #cecece;
+    .container-cabecalho{
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+        .menu{
+            ul{
+                display: flex;
+                min-width: 300px;
+                justify-content: space-around;
+                li{
+                    list-style: none;
+                    
+
+                }
+            }
+        }
+    }
 }

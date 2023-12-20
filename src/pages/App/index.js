@@ -1,29 +1,24 @@
 import { Link } from 'react-router-dom';
 import Cabecalho from '../../components/cabecalho';
+import Ingerida from '../../components/ingerida';
 import './index.scss';
 
 
-function App() {
+export default function App() {
   return (
     <div className="pagina-app">
       <Cabecalho/>
 
       <main>
 
-        <h1> 
-          
-          REACTJS &nbsp;
-          <i className='fa fa-heart'></i> {/* icone do font wasome no site tem os nomes quem vai depois de fa fa- */}
-
-        </h1>
+        <h1> Wapp</h1>
         
         <hr />
-        <Link to="/contato"> Ir para Contato </Link>
-        <Link to="/eventos"> Ir para Eventos </Link>
-        {/* <Link to="/discord"> Ir para Discord </Link> */}
+
+       <Ingerida/> 
+      
+        
       </main>
     </div>
   );
 }
-
-export default App;

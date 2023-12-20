@@ -1,0 +1,50 @@
+
+
+
+
+.form-ingerida {
+    max-width: 700px;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    background-color: white;
+    border-radius: 92px 0px 0px 0px;
+    -webkit-border-radius: 92px 0px 0px 0px;
+    -moz-border-radius: 92px 0px 0px 0px;
+    border: 6px solid #50e7ff;
+
+
+    #container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 600px;
+        margin: 0 auto;
+        margin-top: 30;
+        width: 100%;
+        padding: 30px 30px 10px;
+
+        #hydration-logs {
+            margin-top: 20px;
+            margin-bottom: 25px;
+        }
+        
+        button {
+          background-color: #3cc4da;
+          color: white;
+          border-radius: 5px;
+          border: solid 1px black;
+        }
+        
+        button:hover {
+            background-color: #06333a;
+          }
+        
+        #total-amount {
+            font-weight: bold;
+            color: #3cc4da;
+        }
+    }
+}
+

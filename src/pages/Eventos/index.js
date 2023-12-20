@@ -73,8 +73,6 @@ export default function Eventos(){
 
                 <h1> Eventos / Variáveis de estado </h1>
 
-                <Link to="/"> Ir para a Home </Link>
-
             
                 <button onClick={clicou}> Clique aqui </button>
                 <input type='text' onChange={alterou}></input>
