@@ -7,7 +7,7 @@ export default function Cabecalho(){
     return(
         <div className='comp-cabecalho'>
             <div className='container-cabecalho'>
-                <img src='/assets/images/borboleta.png' alt='logo'  />
+                <img src='/assets/images/logo-wapp2.png' alt='logo'  />
 
                 <div className='menu'>
                     <ul>

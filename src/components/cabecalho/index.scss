@@ -1,17 +1,25 @@
 .comp-cabecalho{
-   
-    background-color: #cecece;
+    height: 110px;
+    background-color: #004AAD;
+    margin-bottom: 50px;
     .container-cabecalho{
         display: flex;
         justify-content: space-between;
-        padding: 20px;
+        padding: 10px 20px 10px;
+        align-items: center;
         .menu{
             ul{
                 display: flex;
                 min-width: 300px;
                 justify-content: space-around;
+                align-content: center;
                 li{
                     list-style: none;
+                    a{
+                        color: #fff;
+                        text-decoration: none;
+                        
+                    }
                     
 
                 }

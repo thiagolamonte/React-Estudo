@@ -1,6 +1,8 @@
 import { Link } from 'react-router-dom';
 import Cabecalho from '../../components/cabecalho';
 import Ingerida from '../../components/ingerida';
+import Necessaria from '../../components/necessaria';
+
 import './index.scss';
 
 
@@ -12,10 +14,11 @@ export default function App() {
       <main>
 
         <h1> Wapp</h1>
-        
-        <hr />
 
-       <Ingerida/> 
+        <Necessaria/>
+
+        <Ingerida/> 
+
       
         
       </main>
